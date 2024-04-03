@@ -27,7 +27,7 @@ const handleChange = (e)=>{
   
 return (
    <>
-    <form>
+    <form onSubmit={handleSubmit}>
       <h1>Full Name Display</h1>
       <div className={styles.container}>
             <div>
@@ -48,7 +48,7 @@ return (
                     onChange={handleChange}
                     required/>
             </div>
-            <button type='submit' onClick={handleSubmit}>Submit</button>
+            <button type='submit'>Submit</button>
      </div>
     </form>
     {send && (
