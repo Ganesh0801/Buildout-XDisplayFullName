@@ -52,8 +52,10 @@ return (
      </div>
     </form>
     {send && (
-        <p>Full Name : {firstName} {lastName}</p>
-    )}
+        <p>
+          Full Name: {firstName} {lastName}
+        </p>
+      )}
    </>
   )
 }
