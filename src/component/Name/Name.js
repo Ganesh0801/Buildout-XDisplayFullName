@@ -36,7 +36,8 @@ return (
                     id="first"
                     type='text' 
                     value={firstName}
-                    onChange={handleChange}/>
+                    onChange={handleChange}
+                    required/>
             </div>
             <div>
                     <lable htmlFor="last">Last Name : </lable>
@@ -44,7 +45,8 @@ return (
                     id="last"
                     type='text'
                     value={lastName}
-                    onChange={handleChange}/>
+                    onChange={handleChange}
+                    required/>
             </div>
             <button type='submit' onClick={handleSubmit}>Submit</button>
      </div>
